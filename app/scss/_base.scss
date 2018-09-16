@@ -1,0 +1,62 @@
+
+html {
+  background: grey;
+  width: 100vw;
+  height: 100vh;
+  font-family: $font-p;
+  font-size: 16px;
+ 
+}
+
+
+header {
+  background: $cloud;
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 12px solid black;
+  
+
+  .title {
+    color:$black;
+    font-size:3em;
+    font-family:$font-title;
+  }
+
+  .caption {
+    color:$black;
+    font-size:1em;
+    font-family:$font-p;
+    margin-top:-10px;
+  }
+ 
+}
+
+
+main {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  .card-wrapper {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 1100px;
+
+  }
+
+    .svg-wrapper{
+   
+      width:80%;
+    }
+
+}
+
+
+

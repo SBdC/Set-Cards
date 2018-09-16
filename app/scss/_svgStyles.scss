@@ -1,0 +1,76 @@
+.background {
+
+	stroke:$black;
+	stroke-width: 20px;
+	fill: $greyBlue;
+
+}
+
+.mountainFront {
+
+	fill: $paleGreen;
+
+}
+
+
+.mountainBack {
+
+	fill: $green;
+
+}
+
+
+.cloud {
+
+	fill: $cloud;
+	fill-opacity: 0.29;
+
+}
+
+
+.earInside, 
+.ear2Inside,
+.triangle,
+.eyeBall {
+
+	fill: $black;
+	
+}
+
+
+
+.face {
+
+	fill: $orange;
+	
+}
+
+.snout {
+
+	fill: $snout;
+	
+}
+
+.bow,
+ {
+
+	fill: $darkRed;
+	
+}
+.tie {
+
+	fill: $red;
+	
+}
+
+.blush {
+	stroke: $darkRed;
+	stroke-width: 2px;
+	
+}
+
+.shine {
+
+	fill: $offWhite;
+	
+}

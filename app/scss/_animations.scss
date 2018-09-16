@@ -1,0 +1,95 @@
+
+.cloud1 {
+  
+  animation: slide 12s alternate infinite;
+  
+}
+
+.cloud2 {
+  
+  animation: slide 14s  alternate infinite;
+  
+}
+
+.blush{
+  
+  animation: blink 23s -3s ease-in infinite both;
+  
+}
+.shine{
+  
+  animation: spark 2s -3s ease-in-out infinite both;
+  
+}
+
+.triangle{
+  
+  animation: nose 23s -3s ease-in-out infinite both;
+  
+}
+
+.mouth{
+  
+  animation: mouth 23s -3s ease-in-out infinite both;
+  
+}
+
+.ear{
+  
+  animation: ears 2s -3s ease-in infinite both;
+  
+}
+
+.ear2{
+
+  animation: ear2 2s -3s ease-in infinite both;
+  
+}
+
+
+@keyframes ears{
+    50%{
+        transform: skew(3deg);
+    }
+}
+
+@keyframes ear2 {
+    50% {
+        transform: skew(-3deg);
+    }
+}
+
+
+
+@keyframes slide
+{
+    50% {
+        transform: translateX(100px);
+    }
+}
+
+
+@keyframes blink {
+    50% {
+        opacity: .1;
+    }
+}
+
+@keyframes spark {
+
+    50% {
+        transform: skew(3deg);
+    }
+}
+@keyframes nose {
+    50% {
+        fill: red;
+    }
+}
+@keyframes mouth {
+    50%
+    {
+        stroke: red;
+    }
+}
+
